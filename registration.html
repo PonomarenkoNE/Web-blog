@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+            integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+            crossorigin="anonymous"></script>
+    <title>Title</title>
+</head>
+<body>
+<div class="bd-example">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Web-blog</a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="container">
+    <form class="form-horizontal" action='' method="POST">
+        <fieldset>
+          <div id="legend">
+            <legend class="">Register</legend>
+          </div>
+          <div class="control-group">
+            <!-- Username -->
+            <label class="control-label"  for="username">Username</label>
+            <div class="controls">
+              <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+              <p class="help-block">Username can contain any letters or numbers, without spaces</p>
+            </div>
+          </div>
+       
+          <div class="control-group">
+            <!-- E-mail -->
+            <label class="control-label" for="email">E-mail</label>
+            <div class="controls">
+              <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+              <p class="help-block">Please provide your E-mail</p>
+            </div>
+          </div>
+       
+          <div class="control-group">
+            <!-- Password-->
+            <label class="control-label" for="password">Password</label>
+            <div class="controls">
+              <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+              <p class="help-block">Password should be at least 4 characters</p>
+            </div>
+          </div>
+       
+          <div class="control-group">
+            <!-- Password -->
+            <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+            <div class="controls">
+              <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+              <p class="help-block">Please confirm password</p>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <!--Birthday-->
+            <label for="birthday"><b>Birthday</label>
+            <div class="controls">
+                <input type="date" id="birthday" name="birthday">
+                <p class="help-block">Please input date of birth</p>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <!-- Username -->
+            <label class="control-label"  for="gender">Gender</label>
+            <div class="controls">
+              <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+              <p class="help-block">Input gender (male, female, transgender, agender, etc.)</p>
+            </div>
+          </div>
+       
+          <div class="control-group">
+            <!-- Button -->
+            <div class="controls">
+              <button class="btn btn-light"><a href="profile.html">Register</a></button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+</div>
+</body>
+</html>
